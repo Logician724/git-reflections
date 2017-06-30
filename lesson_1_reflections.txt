@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It is truly magnficent what one can do with version control.
+The ability to isolate bugs using version control is in fact amazing.
+comparing files before merging is a very powerful concept that I am very much in love with.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+This way you can keep track of the development cycle of your app.
+In the short term, you can get a broader view to your logic when first started designing the application. 
+
+In the long term, you can benefit from your early versions to see what you generally do wrong as a programmer,
+ and reflect on it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+Git is more suitable for code projects, on the other hand google docs offers a more suitable interface for plain text.
+
+Git can get a bit mundane when manually making commits after every logical change, but it is better than google docs
+which can save version that make no sense to the user.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file separately?
+
+In version control, there might be a lot of files dependent on one another e.g. a website source code,
+which is why saving multiple files in one commit will make it easier to track logical changes across
+the source code more efficiently.
+
+In google docs, we only save plain text, hence no dependencies occur across different files making saving multiple times at once simply unnecessary.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+you can use the git log commmand after you cd to the cloned reppository.In this case a full history of the repo's commits
+will be viewed each commit with its unique ID.
+
+After you view the log you copy the commits ids that you want to compare then use the following command
+
+              git  diff  first_id second_id
+
+
+How might using version control make you more confident to make changes that could break something?
+
+whenever a bug occurs you can check back to a certain commmit to identify the the commit that initiated the bug.
+to check back to a certain commit we use
+
+              git checkout commit_id
+
+then after identifying the commit that initiated the bug we can edit the code and go back to the most recent commit.
+
+
+How Do You Want to Use Git?
+
+I want to use git as a way to keep my projects safe from potential breakdowns resulting from experimenting with
+new features or logic in the code. This way I can continue working on new feature while maintaining fully functional
+version of the project. Also, I want to use to compare different versions of the code in order to identify the
+differences between versions of code, and accurately assess the current working logic compared to the old one.
+
+
