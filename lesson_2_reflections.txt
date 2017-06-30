@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+when you initialize a repository a hidden directory (.git) is added to the current directory (where you called git init).
+No commits are added to the repository initailly though, and you have to make a commit yourself after repo initialization
+
+You need repos in order to have a workspace for your version control environment.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is where you add files to be added in order to make a commit, which is different from the repository which
+acts as a directory for your project files etc.
+
+
