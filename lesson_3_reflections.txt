@@ -28,4 +28,16 @@ clones: copy a remote repository on github to your local
 machine 
 
 branches: make a different version of the code on your local 
-machine with the same parent commit, in order to work on new feature or expirement on some code.
+machine with the same parent commit, in order to work on new 
+feature or expirement on some code.
+ 
+ 
+ What is the benefit of having a copy of the last known state 
+ of the remote stored locally?
+
+This way you can identify the point when you were last in synq 
+with the remote, in which case when you attempt to fetch the 
+remote you branch from that local point and change the 
+origin master label to the new synchronized commits from the 
+remote right the new branch before you start merging with you 
+local branch wether it is master or any other.
