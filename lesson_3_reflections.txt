@@ -1,0 +1,6 @@
+when would you want to create a remote repository rather than keeping all  your work local?
+
+1- when you want to keep the versions of your source code on a cloud server
+2- when you want to collaborate with different people so that you can push your local data
+    to the cloud and other people can pull this data back into their local machine and vice versa.
+    
