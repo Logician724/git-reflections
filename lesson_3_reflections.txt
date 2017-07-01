@@ -30,10 +30,10 @@ machine
 branches: make a different version of the code on your local 
 machine with the same parent commit, in order to work on new 
 feature or expirement on some code.
- 
- 
- What is the benefit of having a copy of the last known state 
- of the remote stored locally?
+
+
+What is the benefit of having a copy of the last known state 
+of the remote stored locally?
 
 This way you can identify the point when you were last in synq 
 with the remote, in which case when you attempt to fetch the 
@@ -41,3 +41,19 @@ remote you branch from that local point and change the
 origin master label to the new synchronized commits from the 
 remote right the new branch before you start merging with you 
 local branch wether it is master or any other.
+
+
+How would you collaborate without using Git or GitHub? What 
+would be easier, and what would be harder?
+
+Collaboration wihout git and github can be possible by adding 
+different versions of the code on a cloud based service for 
+all the team members to see. This would be very tedious and 
+difficult to maintain specially with large project and 
+slightly large team where everyone wants to add his version 
+and each one needs to get checked for conflicts.
+
+accessibilty will be much easier though. you won't need to 
+learn git because you will have a very friendly interface that 
+helps you upload your files without any commands or other sort 
+of complication.
