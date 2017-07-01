@@ -1,8 +1,7 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-It is truly magnficent what one can do with version control.
-The ability to isolate bugs using version control is in fact amazing.
-comparing files before merging is a very powerful concept that I am very much in love with.
+using diff I can see the inserted and deleted lines of code after comparison with the 2 versions
+making bug isolation and resolution a much faster job to do than comparing multiple version manually.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
