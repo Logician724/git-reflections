@@ -57,3 +57,19 @@ accessibilty will be much easier though. you won't need to
 learn git because you will have a very friendly interface that 
 helps you upload your files without any commands or other sort 
 of complication.
+
+
+When would you want to make changes in a separate branch 
+rather than directly in master? What benefits does each 
+approach have?
+
+when you want to expirement on code in a different branch and 
+then when merging time comes start resolving the conflicts 
+that occur between master and the branch.
+
+when you want to collaborate with others, but don't want to 
+cause conflicts in the workflow by pushing to master right 
+away everytime you make a change; you create a new branch, 
+make all the changes you want in there, and then create a pull 
+request when you are ready to merge with master. 
+
